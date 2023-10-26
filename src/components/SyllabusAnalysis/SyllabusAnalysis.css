@@ -1,0 +1,34 @@
+.analysisContainer{
+    width: 100%;
+    height: 50%;
+    border: 1px solid #EBF0F5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.analysisContainer > h1{
+    font-size: 16px;
+    font-weight: 700;
+    color: #1E272E;   
+}
+
+.analysisContainer > .analysis > h2{
+    font-size: 16px;
+    font-weight: 400;
+    color: #566474;
+}
+
+.analysisContainer > .analysis > .proBar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.analysisContainer > .analysis > .proBar > h3{
+    font-size: 16px;
+    font-weight: 700;
+}

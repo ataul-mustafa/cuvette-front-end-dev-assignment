@@ -1,0 +1,53 @@
+.QContainer{
+    width: 100%;
+    height: 45%;
+    border: 1px solid #EBF0F5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    padding: 4%;
+}
+
+.QContainer > .heading {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.QContainer > .heading > h1{
+    font-size: 16px;
+    font-weight: 700;
+    color: #1E272E;
+}
+
+.QContainer > .heading > h1:nth-child(2){
+    color: #438AF6;
+}
+
+.QContainer > .para{
+    font-size: 14px;
+    font-weight: 400;
+    color: #566474;
+}
+
+.QContainer > .para > span{
+    font-weight: 700;
+}
+
+.QContainer  > h1{
+    position: absolute;
+    top: 58%;
+}
+
+@media screen and (max-height: 800px) {
+    .QContainer  > h1{
+        top: 60%;
+    }
+
+    .QContainer {
+        padding: 5% 4% 0 4%;
+    }
+}

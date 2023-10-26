@@ -1,0 +1,113 @@
+button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #142683;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.popup-container {
+    height: 100%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.popup-container > .heading {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popup-container > .heading > h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #222F3E;
+}
+
+.popup-container > .heading > img{
+    height: 48px;
+    width: auto;
+}
+
+.popup-container > form {
+    height: 310px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5% 0;
+    border-bottom: 1px solid #EBF0F5;
+    border-top: 1px solid #EBF0F5;
+}
+
+.popup-container > form > .inpCon{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.popup-container > form > .inpCon > label > span{
+    font-size: 18px;
+    font-weight: 400;
+    color: #566474;
+}
+
+.popup-container > form > .inpCon > label > div{
+    display: inline-block;
+    color: #fff;
+    background-color: #142683;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 2px;
+    margin-right: 10px;
+}
+
+.popup-container > form > .inpCon > label > span:nth-child(3){
+    font-weight: 700;
+}
+
+.popup-container > form > .inpCon > input {
+    border: 1px solid #142683;
+    outline: none;
+    height: 44px;
+    width: 20%;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #142683;
+}
+
+.popup-container > .btns{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.popup-container > .btns > button{
+    width: 15%;
+    margin-right: 30px;
+}
+
+.popup-container > .btns > button:nth-child(1){
+    background-color: #fff;
+    color: #142683;
+    border: 1px solid #142683;
+    box-sizing: border-box;
+}
+
+.popup-container > .btns > button:nth-child(2) {
+    position: relative;
+}
+
+.popup-container > .btns > button:nth-child(2) > img{
+    position: absolute;
+    top: 30%;
+    right: 20%;
+}

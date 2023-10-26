@@ -1,0 +1,38 @@
+.headerContainer{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3.5%;
+    align-items: center;
+    border-bottom: 1px solid #EBF0F5;
+}
+
+.headerContainer > img{
+    width: auto;
+    height: 30px;
+}
+
+.headerContainer > div{
+    display: flex;
+    height: 65%;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #EBF0F5;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.headerContainer > div > img {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.headerContainer > div > h2 {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+}

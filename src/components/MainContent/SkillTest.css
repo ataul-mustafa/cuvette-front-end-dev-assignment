@@ -1,0 +1,169 @@
+.skillTestContainer{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1%;
+    position: relative;
+}
+
+.skillTestContainer > .left{
+    width: 60%;
+    height: 83%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 4% 0 0 0;
+}
+
+.skillTestContainer > .left > h3{
+    position: absolute;
+    top: 4%;
+    left: 2.2%;
+    color: #566474;
+}
+
+.skillTestContainer > .left > .updateBox{
+    height: 14%;
+    border: 1px solid #EBF0F5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.skillTestContainer > .left > .updateBox > .textWithImage{
+    width: 75%;
+    display: flex;
+    align-items: center;
+}
+
+.skillTestContainer > .left > .updateBox > .textWithImage > img{
+    width: auto;
+    height: 50px;
+}
+
+.skillTestContainer > .left > .updateBox > .textWithImage > .text{
+    margin-left: 5%;
+}
+
+.skillTestContainer > .left > .updateBox > .textWithImage > .text > h1{
+    font-size: 16px;
+    font-weight: 700;
+    color: #222F3E;
+}
+
+.skillTestContainer > .left > .updateBox > .textWithImage > .text > h3{
+    font-size: 12px;
+    font-weight: 400;
+    color: #566474;
+}
+
+.skillTestContainer > .left > .quickStatistics{
+    height: 19%;
+    border: 1px solid #EBF0F5;
+    padding: 7px 15px;
+    border-radius: 10px;
+}
+
+.skillTestContainer > .left > .quickStatistics > h1{
+    font-size: 16px;
+    font-weight: 700;
+    color: #1E272E;
+    margin-bottom: 10px;
+}
+
+.skillTestContainer > .left > .quickStatistics > .stats{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.skillTestContainer > .left > .quickStatistics > .stats > .stat {
+    display: flex;
+}
+
+.skillTestContainer > .left > .quickStatistics > .stats > .stat > h1{
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #F7F8FA;
+    border: 1px solid #EBF0F5;
+    padding: 10px;
+    text-align: center;
+}
+
+.skillTestContainer > .left > .quickStatistics > .stats > .stat > .right {
+    margin-left: 15px;
+}
+
+.skillTestContainer > .left > .quickStatistics > .stats > .stat > .right > .count {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1E272E;
+}
+
+.skillTestContainer > .left > .quickStatistics > .stats > .stat > .right > .text {
+    font-size: 12px;
+    font-weight: 400;
+    color: #9EAAB7;
+}
+
+.skillTestContainer > .left > .quickStatistics > .stats > .separator{
+    width: 1px;
+    height: 50px;
+    margin: auto;
+    background-color: #EBF0F5;
+}
+
+.skillTestContainer > .left > .compGraph{
+    height: 60%;
+    border: 1px solid #EBF0F5;
+    border-radius: 10px;
+}
+
+.skillTestContainer > .left > .compGraph > .info{
+    padding: 1% 2%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skillTestContainer > .left > .compGraph > .info > .text > h1{
+    font-size: 16px;
+    font-weight: 700;
+    color: #1E272E;
+    margin-bottom: 1%;
+}
+
+.skillTestContainer > .left > .compGraph > .info > .text > h2{
+    width: 72%;
+    font-size: 14px;
+    font-weight: 400;
+    color: #566474;
+}
+.skillTestContainer > .left > .compGraph > .info > .text > h2 > span{
+    font-weight: 700;
+}
+
+.skillTestContainer > .left > .compGraph > .info > img{
+    box-sizing: content-box;
+    width: 21px;
+    height: 21px;
+    padding: 10px;
+    background-color: #F7F8FA;
+    border: 1px solid #EBF0F5;
+    border-radius: 50%;
+}
+
+.skillTestContainer > .right{
+    width: 35%;
+    height: 83%;
+    /* margin-top: 4.8%; */
+    margin: 4% 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
